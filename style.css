@@ -41,6 +41,10 @@ body {
     cursor: pointer;
 }
 
+.panel:hover img{
+    transform: scale(1.1);
+}
+
 .panel img {
     width: 60%;
 }
@@ -58,7 +62,7 @@ strong {
     letter-spacing: 1px;
 }
 
-.panel.active {
+.panel.active,.panel:hover {
     outline-offset: 2px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
     background-color: #eee;
